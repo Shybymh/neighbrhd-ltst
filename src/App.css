@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
+/* h1,h2,h3,h4{
+  font-family:Arial, Helvetica, sans-serif ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h5,h6,p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#story {
+  padding: 30px 150px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: aliceblue;
+}
+.fa-star{
+  color: gold;
+}
+
+
+h4,h3{
+  color:white;
+}
+
+#loginModal .modal-header{
+  background: #abd4fa ;
+}
+
+Button {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+.card-body{
+  background-color: white;
+  text-align: center;
+  font-size:1.5em;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover {
+  transform:scale(1.01);
 }
+
+/*.card-deck{
+    margin: 50px 50px;
+}*/
+/* 
+.navbar{
+  background-color: #05315ac5;
+  
+}
+
+.site-footer{
+  background-color: #b3e2ce;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+#localArtist{
+  margin: 0px;
+  padding: 15px;
+  color: #d87683;
+  background-color: white;
+}
+#local{
+  color: #d87683;
+}
+
+.card-columns{
+  margin-top: 15px;
+  
+}
+#paintings, #accessory, #jewellery, #artist{
+ background-color: #dfa0a8;
+  padding: 20px;
+}*/
+
+
+/*#sidebar {
+  min-width: 150px;
+  max-width: 150px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  transition: all 0.5s;
+}
+
+a,
+a:hover,
+a:focus {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#sidebar ul li a {
+  padding: 20px;
+  
+  font-size: 1.2em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  width: auto;
+  color: white;
+  background: rgb(117, 116, 116);
+} */
+
+body {
+  background-color: rgba(233, 236, 236, 0.952);
+}
+
+h1,h2,h3,h4{
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+h5,h6,p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.fa-star{
+  color: gold;
+}
+
+
+h4,h3{
+  color:white;
+}
+
+#loginModal .modal-header{
+  background: #022a4e ;
+  color: white;
+}
+
+#joinModal .modal-header{
+  background: #022a4e ;
+  color: white;
+}
+
+
+
+Button {
+  color: rgb(27, 26, 26);
+}
+
+#addItem1, #addItem2 {
+  background-color: #183e5f;
+}
+
+.card-body{
+  background-color: white;
+  text-align: center;
+  font-size:1.5em;
+  
+}
+
+.card:hover {
+  transform:scale(1.01);
+}
+
+
+
+.navbar{
+  background-color: #073057c5;
+  
+}
+
+#free {
+  padding: 20px;
+}
+
+.cc-details {
+  display: none;
+}
+
+
+
+footer{
+  background-color: #b3e2ce;
+  padding: 20px 0;
+  margin-top: 20px;
+  position: sticky;
+}
+
+
+
+.card-columns{
+  margin-top: 15px;
+  
+}
+/* #paintings, #accessory, #jewellery, #artist{
+ background-color: #dfa0a8;
+  padding: 20px;
+} */
+
+/*.dropdown{
+  background-color: inherit;
+} 
+
+.dropdownitem {
+  color: inherit;
+}*/
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 2rem 2rem 2rem;
+  overflow: hidden;
+  position: relative;
+  color: #111010;
+}
+
+.sellcom {
+  background-color: rgb(250, 246, 246);
+}
+
+  
+
+  .postcard__img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+ 
