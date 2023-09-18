@@ -46,7 +46,7 @@ class Header extends Component {
 <Navbar dark sticky="top" expand="md">
                     <div className="container">
                         {/* <NavbarBrand className="mr-auto"  href="/home"><h4>MyNeighborhood</h4></NavbarBrand> */}
-                        <NavbarBrand className="mr-auto"  href="/home"><h4>MyNeighborhood</h4></NavbarBrand>
+                        <NavbarBrand className="mr-auto"  to="/home"><h4>MyNeighborhood</h4></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ms-auto" navbar>

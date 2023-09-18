@@ -2,7 +2,7 @@ export const PAINTINGS = [
     {
         id: 0,
         name: "Reflection",
-        image: "/assets/images/p14.jpg",
+        image: "/assets/images/Paint.JPG",
         elevation: 1233,
         featured: false,
         paintingpage: true,
@@ -13,7 +13,7 @@ export const PAINTINGS = [
     {
         id: 1,
         name: "Droplets",
-        image: "/assets/images/p12.jpg",
+        image: "/assets/images/IMG-8028.jpg",
         elevation: 700,
         featured: false,
         paintingpage: true,
@@ -24,7 +24,7 @@ export const PAINTINGS = [
     {
         id: 2,
         name: "Pink hued sky",
-        image: "/assets/images/p1.jpg",
+        image: "/assets/images/Events.JPG",
         elevation: 1233,
         featured: false,
         paintingpage: true,
@@ -35,7 +35,7 @@ export const PAINTINGS = [
     {
         id: 3,
         name: "Canopy of trees",
-        image: "/assets/images/p3.jpg",
+        image: "/assets/images/Paint.JPG",
         elevation: 1233,
         featured: false,
         paintingpage: true,

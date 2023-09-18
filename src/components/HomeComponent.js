@@ -28,7 +28,7 @@ function RenderCategories({item}) {
                 />
                 <CardBody className="bg-dark text-white">
                     <CardText tag="h5">{eent.description} </CardText>
-                    <CardText className="text-white"><Link to='/eventscomp'>View more events</Link></CardText>
+                    <CardText className="text-white"><Link to='/events'>View more events</Link></CardText>
                 </CardBody>
             </Card>
         </div>
