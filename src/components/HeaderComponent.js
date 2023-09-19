@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { Nav, Navbar,  NavbarToggler, Collapse, NavItem, NavbarBrand,   
+import { Nav, Navbar,  NavbarToggler, Collapse, NavItem, 
 Button, Modal, ModalHeader, ModalBody, Form , FormGroup, Input, Label, DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown   } from 'reactstrap';
 
 import { NavLink, Link } from 'react-router-dom';
@@ -42,16 +42,16 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-
-<Navbar dark sticky="top" expand="md">
+                <img src='/assets/images/header3.jpg' alt='neighborhood' width="100%" height="150px"/>
+                <Navbar dark sticky="top" expand="md">
                     <div className="container">
                         {/* <NavbarBrand className="mr-auto"  href="/home"><h4>MyNeighborhood</h4></NavbarBrand> */}
-                        <NavbarBrand className="mr-auto"  to="/home"><h4>MyNeighborhood</h4></NavbarBrand>
+                        {/* <NavbarBrand className="mr-auto"  to="/home"><h4>MyNeighborhood</h4></NavbarBrand> */}
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ms-auto" navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link text-light" to="/home">Home
+                                    <NavLink className="nav-link text-light" to="/home">MyNeighborhood
                                 </NavLink>
                                 </NavItem>
 
