@@ -13,8 +13,6 @@ function RenderAccessories({accessory}) {
     )
 }
 
-// Renders Breadcrumb, heading and campsites' images and names 
-// painting={this.state.paintings.filter(painting => painting.featured)[0]}
 
 function ShowAccessories(props) {
     const showaccessories = props.accessories.filter(accessory => accessory.accessorypage).map(accessory => {

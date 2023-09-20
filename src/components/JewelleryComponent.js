@@ -13,7 +13,7 @@ function RenderJewellery({jewell}) {
     )
 }
 
-// Renders Breadcrumb, heading and campsites' images and names 
+
 // painting={this.state.paintings.filter(painting => painting.featured)[0]}
 
 function ShowJewellery(props) {

@@ -17,12 +17,7 @@ function RenderProduct({product}) {
                 imageSrc={product.image} width="90%" square magnifierSize="50%"
                 imageAlt={product.image}
                 />
-                {/* <Card>
-                    
-                    <CardImg top
-                       src={product.image} alt={product.name} /> 
-                       
-                </Card> */}
+               
             </div>
 
             <div className="col-md-4 mt-5">
@@ -38,15 +33,8 @@ function RenderProduct({product}) {
                 <h5>{product.sales}</h5>
                 <h5>{product.description}</h5>
                 <h5><i class="fa fa-truck" /> {' '} Free shipping</h5>
-                {/* <Button  size="lg" block  >Add to Cart</Button>
-                <Button className="d-none">Proceed to check out</Button>
-                <Button className="d-none">Keep Shopping</Button> */}
-                 <AddtoBag />   
-                
+                 <AddtoBag /> 
             </div>
-           
-       
-
         </>
     );
 }
@@ -86,7 +74,6 @@ function RenderReviews({reviews}) {
     return <div />;
 }
 
-// Renders Breadcrumb and campsite name dynamically. 
 function ProductDisplay(props) {
    if (props.painting){
     return(

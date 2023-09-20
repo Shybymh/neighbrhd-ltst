@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-// Function for Footer which returns the other component links, social links and contact info   
+ 
 
 function Footer(props) {
     return (

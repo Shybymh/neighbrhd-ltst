@@ -17,8 +17,7 @@ function RenderPaintings({painting}) {
     )
 }
 
-// Renders Breadcrumb, heading and campsites' images and names 
-// painting={this.state.paintings.filter(painting => painting.featured)[0]}
+
 
 function ShowPaintings(props) {
     const showpaintings = props.paintings.filter(painting => painting.paintingpage).map(painting => {

@@ -45,8 +45,6 @@ class Header extends Component {
                 <img src='/assets/images/header3.jpg' alt='neighborhood' width="100%" height="150px"/>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        {/* <NavbarBrand className="mr-auto"  href="/home"><h4>MyNeighborhood</h4></NavbarBrand> */}
-                        {/* <NavbarBrand className="mr-auto"  to="/home"><h4>MyNeighborhood</h4></NavbarBrand> */}
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ms-auto" navbar>
@@ -54,7 +52,6 @@ class Header extends Component {
                                     <NavLink className="nav-link text-light" to="/home">MyNeighborhood
                                 </NavLink>
                                 </NavItem>
-
                                     <UncontrolledDropdown nav inNavbar >
                                         <DropdownToggle nav >
                                         Shop local
@@ -100,38 +97,7 @@ class Header extends Component {
                         </Collapse>
                     </div>
                 </Navbar>
-
-                {/* <Navbar dark sticky="top" expand="md">
-                    <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><h4>Neighborhood Makers and Crafters</h4></NavbarBrand>
-                        <NavbarToggler onClick={this.toggleNav} />
-                        <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar className="ml-auto">
-                                
-                                <NavItem>
-                                <NavLink className="nav-link text-light" to="/paintings"> Paintings
-                                    </NavLink>
-                                    
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link text-light" to="/accessories"> Accessories
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link text-light" to="/jewellery"> Jewellery
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link text-light" to="/artists"> Artists
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                            <span className="navbar-text text-light ml-auto" onClick={this.toggleModal} >Login</span>
-                        </Collapse>
-                    </div>
-                </Navbar> */}
                 
-
                 <Modal id="loginModal" isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
                     <ModalBody>
