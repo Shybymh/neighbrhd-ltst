@@ -76,7 +76,7 @@ class Main extends Component {
       <div>
         <Header />
         <Switch>
-          <Route exact path='/home' component={ProductPlaceholder} />
+          <Route path='/home' component={ProductPlaceholder} />
           <Route exact path='/paintings' render={() => <ShowPaintings paintings={this.state.paintings} />}  />
           <Route exact path='/accessories' render={() => <ShowAccessories accessories={this.state.accessories} />}  />
           <Route exact path='/jewellery' render={() => <ShowJewellery jewellery={this.state.jewellery} />}  />
