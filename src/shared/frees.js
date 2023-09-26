@@ -1,34 +1,38 @@
 export const FREES = [
     {
         id: 0,
-        name: "Learning chair",
-        image: "/assets/images/acc1.jpg",
+        username: "Lila",
+        name: "Toy drumset",
+        image: "/assets/images/free2.jpg",
         elevation: 1233,
         address: "Sheridan and Foster",
-        description: "Gently used toddler learning chair, good working condition"
+        description: "Gently used, good condition"
     },
     {
         id: 1,
-        name: "Boots",
-        image: "/assets/images/acc1.jpg",
+        username: "Hamza",
+        name: "Play Kitchen",
+        image: "/assets/images/free3.jpg",
         elevation: 700,
         address: "Magnolia and Foster",
-        description: "Boots for toddler size 5."
+        description: "Plastic"
     },
     {
         id: 2,
-        name: "Stroller",
-        image: "/assets/images/acc1.jpg",
+        username: "Azim",
+        name: "Learning chair",
+        image: "/assets/images/free1.jpg",
         elevation: 1233,
         address: "Carmen and Clark",
-        description: "Gently used stroller."
+        description: "Gently used"
     },
     {
         id: 3,
-        name: "Stroller",
-        image: "/assets/images/acc1.jpg",
+        username: "Lila",
+        name: "Drum",
+        image: "/assets/images/free2.jpg",
         elevation: 1233,
         address: "Carmen and Clark",
-        description: "Gently used stroller."
+        description: "Gently used"
     }
 ];

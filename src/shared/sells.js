@@ -1,38 +1,42 @@
 export const SELLS = [
     {
         id: 0,
-        name: "Learning chair",
-        image: "/assets/images/acc1.jpg",
+        username: "Lila",
+        name: "Infant Car Seat",
+        image: "/assets/images/sell2.jpg",
         elevation: 1233,
         address: "Sheridan and Foster",
-        price: "$10",
-        description: "Gently used toddler learning chair, good working condition"
+        price: "$100",
+        description: "Gently infant car seat in good condition"
     },
     {
         id: 1,
-        name: "Boots",
-        image: "/assets/images/acc1.jpg",
+        username: "Hamza",
+        name: "Plant",
+        image: "/assets/images/IMG-7323.jpg",
         elevation: 700,
         address: "Magnolia and Foster",
-        price: "$10",
-        description: "Boots for toddler size 5."
+        price: "$20",
+        description: "Snake plant with pot"
     },
     {
         id: 2,
-        name: "Stroller",
-        image: "/assets/images/acc1.jpg",
+        username: "Azeem",
+        name: "Car seat",
+        image: "/assets/images/sell2.jpg",
         elevation: 1233,
         address: "Carmen and Clark",
-        price: "$10",
-        description: "Gently used stroller."
+        price: "$75",
+        description: "Gently used"
     },
     {
         id: 3,
-        name: "Stroller",
-        image: "/assets/images/acc1.jpg",
+        username: "Shim",
+        name: "Plant",
+        image: "/assets/images/IMG-7323.jpg",
         elevation: 1233,
         address: "Carmen and Clark",
-        price: "$10",
-        description: "Gently used stroller."
+        price: "$15",
+        description: "Healthy snake plant"
     }
 ];

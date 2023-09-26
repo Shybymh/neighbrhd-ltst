@@ -35,6 +35,8 @@ class Rendersell extends Component {
                         <h5 className="m-lg-5">{sell.name}</h5>
                         <h6 className="m-lg-5">{sell.address}</h6>
                         <h6 className="m-lg-5">{sell.description}</h6>
+                        <h6 className="m-lg-5">{sell.price}</h6>
+
                         <Button className="m-lg-5"><i class="fa fa-envelope"/>Message</Button>
                        
                     </div>
