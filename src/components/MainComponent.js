@@ -89,7 +89,7 @@ class Main extends Component {
           <Route exact path='/sell' render={() => <Rendersell sells={this.state.sells} />} />
           <Route exact path='/events' render={() => <EventsComp events={this.state.events} />}  />
           <Route exact path='/services' render={() => <Renderservices services={this.state.services} />}  />
-          <Redirect to='/home' />
+          <Redirect to='/' />
         </Switch>
         <Footer />
       </div>
